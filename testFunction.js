@@ -1,5 +1,5 @@
 exports.testFunction = (req, res) => {
-    let body = req.body
+  let body = req.body
   let params = ['organizationId', 'objectId', 'name']
 
   if (Object.keys(body).every(key => params.includes(key))) {
